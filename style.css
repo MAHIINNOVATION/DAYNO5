@@ -1,0 +1,122 @@
+.parent{
+    font-family: "Trebuchet MS",sans-serif;
+    left: 50%;
+    width: 223px;
+    border: 0px solid ;
+    box-shadow: 3px 3px 30px ;
+    position: relative;
+    border-radius: 5px;
+    
+}
+.parent img{
+    width: 100%;
+    
+}
+
+.parent .top span{
+    background: #6E2594;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 10px ;
+    border-radius: 0 20px 20px 0;
+    display: inline-block;
+    top: 10px;
+    position: absolute;
+}
+
+.text{
+    padding: 15px;
+}
+
+.text h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.text h4:hover{
+    color: orange;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.text ul{
+    padding-left: 15px;
+}
+
+.text ul li{
+    font-size: 13px;
+    color: #666;
+    margin: 8px;
+}
+
+.price{
+    text-align: center;
+    margin: 15px;
+}
+
+.price .new-price{
+    line-height: 22px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #d51e0b;
+}
+
+.price .old-price{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: var(--s-f-c1);
+    padding-left: 5px;
+}
+
+
+.buy{
+    padding: 5px 15px;
+}
+
+
+.buy a{
+    width: 100%;
+    display:block;
+    background: rgba(55, 73, 187, .05);
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 34px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: px;
+    
+}
+
+.buy a:hover{
+    background: #3749BB;
+    color: #fff;
+}
+.compare{
+    padding: 5px 15px;
+}
+
+
+.compare a{
+    width: 100%;
+    display:block;
+    color: #666;
+    box-sizing: border-box;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 34px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: px;
+    
+}
+
+.compare a:hover{
+    background: #a3a1a177;
+    color: #000000;
+}
+
